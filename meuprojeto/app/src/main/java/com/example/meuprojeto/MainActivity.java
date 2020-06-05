@@ -1,5 +1,6 @@
 package com.example.meuprojeto;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -51,5 +52,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void acessoOnclick(View view)
+    {
+        Intent itest2 = new Intent(this,TelaTest2.class);
+        startActivity(itest2);
     }
 }
