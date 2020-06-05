@@ -56,7 +56,23 @@ public class MainActivity extends AppCompatActivity {
 
     public void acessoOnclick(View view)
     {
-        Intent itest2 = new Intent(this,TelaTest2.class);
-        startActivity(itest2);
+        switch(view.getId())
+        {
+            case(R.id.btnTest1):
+                Intent itest1 = new Intent(this, TelaTest1.class);
+                startActivity(itest1);
+                break;
+
+            case(R.id.btnTest2):
+                Intent itest2 = new Intent(this, TelaTest2.class);
+                startActivity(itest2);
+                break;
+
+            case(R.id.btnTest3):
+                Intent itest3 = new Intent(this, TelaTest3.class);
+                startActivity(itest3);
+                break;
+        }
+
     }
 }
