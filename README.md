@@ -1,2 +1,2 @@
 # Test-Android
-Projeto focado para o aprendizado de realização de Testes para plataforma Android
+Aplicacao android focada para o aprendizado na busca de elementos da tela do software.
